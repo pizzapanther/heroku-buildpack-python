@@ -1,6 +1,8 @@
 Heroku buildpack: Python
 ========================
 
+Tweaked to add GeoDjango Support
+
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Python apps.
 It uses [virtualenv](http://www.virtualenv.org/) and [pip](http://www.pip-installer.org/).
 

@@ -240,8 +240,8 @@ done
 
 set-env PATH '$HOME/.heroku/venv/bin:$PATH'
 set-default-env PYTHONUNBUFFERED true
-set-default-env LIBRARY_PATH /app/.heroku/vendor/lib
-set-default-env LD_LIBRARY_PATH /app/.heroku/vendor/lib
+set-default-env LIBRARY_PATH /app/.heroku/vendor/lib:/app/lib/geos/lib:/app/lib/gdal/lib:/app/lib/proj4/lib
+set-default-env LD_LIBRARY_PATH /app/.heroku/vendor/lib:/app/lib/geos/lib:/app/lib/gdal/lib:/app/lib/proj4/lib
 set-default-env LANG en_US.UTF-8
 set-default-env PYTHONHASHSEED random
 set-default-env PYTHONHOME /app/.heroku/venv/
